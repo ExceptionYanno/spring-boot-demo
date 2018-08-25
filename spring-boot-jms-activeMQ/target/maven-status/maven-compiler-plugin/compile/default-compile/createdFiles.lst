@@ -1,0 +1,6 @@
+com\yannoyan\springbootjms\jms\JMSConfig.class
+com\yannoyan\springbootjms\jms\Producer.class
+com\yannoyan\springbootjms\SpringbootJmsApplication.class
+com\yannoyan\springbootjms\controller\JMSController.class
+com\yannoyan\springbootjms\jms\Consumer2.class
+com\yannoyan\springbootjms\jms\Consumer.class

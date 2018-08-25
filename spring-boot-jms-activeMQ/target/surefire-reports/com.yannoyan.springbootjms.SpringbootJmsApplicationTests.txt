@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.yannoyan.springbootjms.SpringbootJmsApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 9.673 s <<< FAILURE! - in com.yannoyan.springbootjms.SpringbootJmsApplicationTests
+test001(com.yannoyan.springbootjms.SpringbootJmsApplicationTests)  Time elapsed: 1.154 s  <<< ERROR!
+org.springframework.jms.UncategorizedJmsException: Uncategorized exception occurred during JMS processing; nested exception is javax.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+	at com.yannoyan.springbootjms.SpringbootJmsApplicationTests.test001(SpringbootJmsApplicationTests.java:31)
+Caused by: javax.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+	at com.yannoyan.springbootjms.SpringbootJmsApplicationTests.test001(SpringbootJmsApplicationTests.java:31)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.yannoyan.springbootjms.SpringbootJmsApplicationTests.test001(SpringbootJmsApplicationTests.java:31)
+
+test002(com.yannoyan.springbootjms.SpringbootJmsApplicationTests)  Time elapsed: 1.015 s  <<< ERROR!
+org.springframework.jms.UncategorizedJmsException: Uncategorized exception occurred during JMS processing; nested exception is javax.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+	at com.yannoyan.springbootjms.SpringbootJmsApplicationTests.test002(SpringbootJmsApplicationTests.java:41)
+Caused by: javax.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+	at com.yannoyan.springbootjms.SpringbootJmsApplicationTests.test002(SpringbootJmsApplicationTests.java:41)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.yannoyan.springbootjms.SpringbootJmsApplicationTests.test002(SpringbootJmsApplicationTests.java:41)
+
